@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import AddFishForm from './AddFishform';
 import EditFishForm from './EditFishForm';
 import Login from './Login';
-import firebase, { auth } from 'firebase';
+import firebase from 'firebase';
 import base, { firebaseApp } from '../base';
 
 class Inventory extends React.Component {
